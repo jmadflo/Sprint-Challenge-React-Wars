@@ -6,7 +6,7 @@ import styled from "styled-components"
 const PostsContainer = ({data}) => {
 
     const Container = styled.div`
-        margin: 0 5%;
+        margin: 20px 5%;
     `
   
     let posts = data.map((singleCharacter) => <Post postContent={singleCharacter} key={singleCharacter.name}/>)
